@@ -1,0 +1,93 @@
+.informacion{
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contenido{
+    margin-top: 9%;
+    background-color: white;
+}
+
+body{
+    background-color: rgb(88, 203, 207);
+}
+
+.logo{
+    margin-left: 60%;
+    position: absolute;
+    height: 54%;
+    width: 38%;
+}
+
+.botones{
+    margin-left: 30%;
+}
+
+@media screen and (max-width:768px) and (min-width:576px){
+    body{
+        background: rgb(194, 129, 129);
+        border: 2px solid blue;
+        padding: 2%;
+    }
+    .logo{
+        height: 35%;
+        width: 35%;
+        margin-top: 25%;
+        margin-right: 50%;
+    }
+    .contenido{
+        margin-top: 10%;
+        width: 60%;
+        margin-left: 1%;
+    }
+    .botones{
+        margin: 1%;
+    }
+    .btn-danger{
+        margin-top: 2%;
+    }
+}
+
+@media screen and (max-width:992px) and (min-width:769px){
+    body{
+        background: rgb(111, 182, 121);
+        border: 2px solid rgb(190, 43, 32);
+        padding: 2%;
+    }
+    .logo{
+        height: 35%;
+        width: 35%;
+        margin-top: 20%;
+        margin-right: 50%;
+    }
+    .contenido{
+        margin-top: 5%;
+        width: 60%;
+        margin-left: 1%;
+    }
+    .botones{
+        margin: 1%;
+    }
+}
+
+@media screen and (max-width:1200px) and (min-width:993px){
+    body{
+        background: rgb(185, 107, 155);
+        border: 2px solid rgb(214, 211, 19);
+        padding: 2%;
+    }
+    .logo{
+        height: 35%;
+        width: 35%;
+        margin-top: 15%;
+        margin-right: 50%;
+    }
+    .contenido{
+        margin-top: 5%;
+        width: 50%;
+    }
+    .botones{
+        margin: 1%;
+        margin-left: 8%;   
+    }
+}

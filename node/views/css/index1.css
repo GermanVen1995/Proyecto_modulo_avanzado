@@ -1,0 +1,175 @@
+*{
+    margin: 5px;
+    box-sizing: border-box;
+    margin-right: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background: rgb(192, 230, 241);
+}
+
+img{
+    width: 80%;
+    height: 280px;
+    margin-left: 9%;
+}
+
+.boton{
+    margin-left: 90%;
+}
+
+h1{
+    text-align: center;
+    font-size: 70px;
+    color: rgb(11, 52, 141);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1:hover{
+    font-size: 65px;
+    color: rgb(100, 14, 180);
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+h2, .caracteristicas, .historia, .conceptos{
+    font-size: 35px;
+}
+
+article, .historia1, .conceptos-hardware{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.imagen2{
+    width: 30%;
+    height: 200px;
+    margin-left: 5%;
+}
+
+.caracteristicas-lista{
+    font-size: 20px;
+    list-style-type: disc;
+    padding: 1%;
+    margin-left: 1%;
+}
+
+.imagen-historia, .imagen-conceptos{
+    width: 50%;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.konrad{
+    font-size: 13px;
+    margin-top: 0px;
+}
+
+.lista-hardware, .lista-software{
+    font-size: 20px;
+    list-style-type: lower-alpha;
+    padding: 1%;
+    margin-left: 1%;
+    text-align: justify;
+}
+
+.table1 td, th, .th1{
+    border: 3px solid black;
+    background: rgb(217, 236, 146);
+    text-align: center; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
+
+table{
+    background: rgb(14, 170, 110);
+}
+
+.table2 td, th, .th2{
+    border: 3px solid black;
+    background: rgb(219, 181, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer{
+    font-size: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width:768px) and (min-width:576px){
+    body{
+        background: rgb(194, 129, 129);
+        border: 2px solid blue;
+        padding: 2%;
+    }
+    .boton{
+        margin-left: 80%;
+    }
+    .imagen2{
+        margin-left: 10%;
+        width: 80%;
+    }
+    .imagen-historia{
+        width: 60%;
+        height: 40%;
+    }
+    .imagen-conceptos{
+        width: 40%;
+        height: 20%;
+        margin-left: 30%;
+    }
+}
+
+@media screen and (max-width:992px) and (min-width:769px){
+    body{
+        background: rgb(111, 182, 121);
+        border: 2px solid rgb(190, 43, 32);
+        padding: 2%;
+    }
+    .boton{
+        margin-left: 85%;
+    }
+    .imagen2{
+        margin-left: 10%;
+        width: 80%;
+    }
+    .imagen-historia{
+        width: 60%;
+        height: 40%;
+    }
+    .imagen-conceptos{
+        width: 40%;
+        height: 20%;
+        margin-left: 30%;
+    }
+}
+
+@media screen and (max-width:1200px) and (min-width:993px){
+    body{
+        background: rgb(185, 107, 155);
+        border: 2px solid rgb(214, 211, 19);
+        padding: 2%;
+    }
+    .boton{
+        margin-left: 90%;
+    }
+    .imagen2{
+        margin-left: 30%;
+        width: 40%;
+        height: 20%;
+    }
+    .imagen-historia{
+        width: 60%;
+        height: 40%;
+    }
+    .imagen-conceptos{
+        width: 40%;
+        height: 20%;
+        margin-left: 30%;
+    }
+}

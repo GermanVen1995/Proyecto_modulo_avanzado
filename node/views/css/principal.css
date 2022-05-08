@@ -1,0 +1,89 @@
+.botones{
+    margin-left: 75%;
+}
+
+.titulo{
+    font-size: 50px;
+    color: black;
+}
+
+.subtitulo{
+    font-size: 20px;
+}
+
+img{
+    float: right;
+    height: 80%;
+    margin-right: 24%;
+    margin-top: 15%;
+}
+
+.contenido{
+    margin-top: 90px;
+}
+
+@media screen and (max-width:768px) and (min-width:576px){
+    body{
+        background: rgb(194, 129, 129);
+        border: 2px solid blue;
+    }
+    img{
+        float: right;
+        height: 30%;
+        margin-top: 40%;
+        margin-right: 10%;
+    }
+    .botones{
+        margin-left: 48%;
+    }
+    .contenido{
+        margin-top: 1%;
+    }
+    .boton{
+        margin-bottom: 20%;
+    }
+}
+
+@media screen and (max-width:992px) and (min-width:769px){
+    body{
+        background: rgb(111, 182, 121);
+        border: 2px solid rgb(190, 43, 32);
+    }
+    img{
+        float: right;
+        height: 40%;
+        margin-top: 20%;
+        margin-right: 10%;
+    }
+    .botones{
+        margin-left: 55%;
+    }
+    .contenido{
+        margin-top: 1%;
+    }
+    .boton{
+        margin-bottom: 20%;
+    }
+}
+
+@media screen and (max-width:1200px) and (min-width:993px){
+    body{
+        background: rgb(185, 107, 155);
+        border: 2px solid rgb(214, 211, 19);
+    }
+    img{
+        float: right;
+        height: 50%;
+        margin-top: 12%;
+        margin-right: 8%;
+    }
+    .botones{
+        margin-left: 65%;
+    }
+    .contenido{
+        margin-top: 1%;
+    }
+    .boton{
+        margin-bottom: 20%;
+    }
+}
