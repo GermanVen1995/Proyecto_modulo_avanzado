@@ -11,7 +11,7 @@ const port    = 3000
 let nivel_acceso = ""
 
 //motor de renderizado
-app.set("views",path.join(__dirname,"/views"))  //establecer motor de vistas
+app.set("views",path.join(__dirname,"/views"))  
 app.engine("ejs", require("ejs").__express)  //establecer motor de renderizado
 app.set("view engine", "ejs")  //establecer condiciones de los archivos
 app.use(express.static(__dirname+"/views"))  //para usar css o bootstrap, static= carpeta publica
