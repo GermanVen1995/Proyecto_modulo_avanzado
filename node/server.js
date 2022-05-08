@@ -9,6 +9,7 @@ const parser  = require("body-parser")
 const app     = express()
 const port    = 3000
 let nivel_acceso = ""
+const util= require("./util/funciones")
 
 //motor de renderizado
 app.set("views",path.join(__dirname,"/views"))  //establecer motor de vistas
@@ -146,4 +147,12 @@ app.post("/validar", async function(req, res){
       res.send("Contraseña incorrecta")
     })
   })
+})
+
+app.post("/validar", function(req,res){
+  const correo_usu=req.body.correo_usu
+
+
+  let a= util.obtener_correo(correo_usu)
+  console.log(a)
 })
